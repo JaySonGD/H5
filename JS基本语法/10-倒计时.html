@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="10-css/index.css" rel="stylesheet">
+</head>
+<body>
+
+        <img src="images/flower.gif">
+        <p>你妹的的我喊辛苦快救我！</p>
+
+
+        <div>3</div>
+
+
+    <script type="text/javascript">
+
+        var p = document.getElementsByTagName('p')[0];
+        var img = document.getElementsByTagName('img')[0];
+        var time = document.getElementsByTagName('div')[0];
+
+
+        var timer = setInterval(function(){
+            time.innerText -= 1;
+
+            if (time.innerText == '0'){
+
+                clearInterval(timer);
+                img.style.display = 'inline-block';
+                p.style.display = 'block';
+//
+                time.style.display = 'none';
+            }
+
+        },1000);
+
+    </script>
+
+
+</body>
+</html>

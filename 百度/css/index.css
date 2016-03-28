@@ -1,0 +1,119 @@
+body{
+    background: url("../images/bg.jpg") no-repeat;
+    background-size: cover;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#baidu-header {
+
+    /*background-color: red;*/
+    text-align: right;
+    height: 44px;
+    font-size: 13px;
+    margin: 20px;
+    font-weight: bold;
+}
+
+#baidu-header a{
+    color: white;
+    line-height: 44px;
+    margin: 0 10px 0 10px;
+}
+
+#baidu-header a.nor{
+    font-weight: normal;
+
+}
+
+#baidu-header a.more{
+    font-weight: normal;
+    background-color: blue;
+
+}
+
+#baidu-boby .baidu-logo{
+    text-align: center;
+    /*background-color: red;*/
+    margin: 0 20px 0 20px;
+}
+
+#baidu-boby .baidu-logo img{
+    width: 250px;
+    height: 120px;
+
+}
+
+#baidu-boby .baidu-search{
+    background-color: red;
+    width: 600px;
+    height: 35px;
+    margin: 20px auto;
+}
+
+#baidu-boby .baidu-search input{
+    text-align: center;
+
+    width: 500px;
+    height: 35px;
+    border: 1px solid #dddddd;
+    box-sizing: border-box;
+    /*设置左边内边距*/
+    padding-left: 10px;
+
+}
+
+
+#baidu-boby .baidu-search input:focus{
+
+    border: 1px solid #3385ff;
+    outline: none;
+
+}
+
+
+#baidu-boby .baidu-search a{
+    background-color: cornflowerblue;
+    display: inline-block;
+    height: 35px;
+    width: 100px;
+    float: right;
+    text-decoration: none;
+    font-size: 23px;
+    line-height: 35px;
+}
+#baidu-boby .images{
+    text-align: center;
+}
+
+#baidu-boby .images div img{
+    width: 150px;
+    padding: 5px;
+
+}
+
+
+#baidu-boby .images div img:hover{
+    opacity: 0.3;
+
+}
+
+#baidu-footer .about{
+    margin: 20px;
+    text-align: center;
+}
+
+
+#baidu-footer .baidu{
+    margin: 10px;
+    text-align: center;
+    color: #dddddd;
+
+}
+
+
+#baidu-footer .baidu a{
+    color: #dddddd;
+}

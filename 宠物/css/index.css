@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'BebasNeue-webfont';
+    src: url('../fonts/BebasNeue-webfont.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("../images/pattern.gif") no-repeat;
+    background-size: cover;
+    font-family: BebasNeue-webfont;
+}
+
+
+
+#pet-line{
+    width: 100%;
+    height: 3px;
+    background-color: red;
+}
+
+
+
+
+#pet-nav {
+    margin: 10px auto;
+    text-align: center;
+
+}
+
+
+
+#pet-nav  ul li{
+    width: 100px;
+
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    list-style: none;
+    margin-left: 20px;
+
+}
+
+#pet-nav ul li a{
+    display: inline-block;
+    width: 100px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+
+#pet-nav ul li a:hover{
+    background-color: white;
+    color: black;
+
+
+}
+
+
+#pet-body{
+    margin-top: 100px;
+    background-color: white;
+
+    text-align: center;
+
+}
+
+
+#pet-body  .pet{
+
+    display: inline-block;
+    background-color: white;
+    width: 300px;
+    margin: 5px;
+    text-align: left;
+
+
+}
+
+
+
+#pet-body  .pet img{
+    margin: 5px 0;
+    width: 300px;
+
+}
+
+
+#pet-body  .pet p{
+    margin: 5px 0;
+    font-family: fantasy;
+
+}
+
+
+#pet-body  .pet button{
+    margin: 5px 0;
+    width: 100px;
+    height: 44px;
+    font-size: 23px;
+    color: white;
+    font-family: BebasNeue-webfont;
+    background-color: orangered;
+    border: 0 solid #dddddd;
+
+}
+
+
+#pet-body  .pet button:hover{
+    background-color: black;
+
+
+}
+
+#pet-body  .pet button:focus{
+outline: none;
+}
+
+
+
+#pet-footer{
+    margin: 10px;
+    text-align: center;
+}
+
+#pet-footer p{
+    font-family: BebasNeue-webfont;
+    font-size: 23px;
+    color: white;
+    margin-bottom: 10px;
+
+}
+
+#pet-footer a{
+    margin: 0 5px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <img src="images/icon_03.png">;
+    <hr>;
+    <input>;
+    <hr>;
+    <button>点你妹</button>
+
+    <script type="text/javascript">
+        var img = document.getElementsByTagName('img')[0];
+        var btn = document.getElementsByTagName('button')[0];
+        var input = document.getElementsByTagName('input')[0];
+        btn.onclick = function(){
+            img.src = "images/icon_04.png";
+        };
+
+        input.onfocus = function(){
+
+            input.style.width = '300px';
+            input.style.border = '1px solid yellow';
+
+        };
+
+        window.onload = function(){
+            img.onmouseout = function(){
+                console.log('出');
+            };
+
+            img.onmousedown = function(){
+                console.log('按下');
+
+            };
+
+            img.onmouseover = function(){
+                console.log('进');
+
+            }
+
+            img.onmousemove = function(){
+                console.log('移动');
+
+            };
+
+        };
+
+    </script>
+</body>
+</html>

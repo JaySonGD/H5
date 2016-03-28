@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+    <img src="images/icon_04.png">
+    <hr>
+    <button>上一张</button>
+    <button>下一张</button>
+
+    <script type="text/javascript">
+      var img = document.getElementsByTagName('img')[0];
+      var lastbtn = document.getElementsByTagName('button')[0];
+      var nextbtn = document.getElementsByTagName('button')[1];
+      var curindex = 1;
+        nextbtn.onclick = function(){
+            curindex ++;
+            if (curindex > 9){
+                curindex = 1;
+            }
+            console.log('ddd');
+            img.src = 'images/icon_0'+curindex+'.png';
+        };
+
+      lastbtn.onclick = function(){
+          curindex --;
+          if (curindex < 1){
+              curindex = 9;
+          }
+          img.src = 'images/icon_0'+curindex+'.png';
+      };
+
+
+
+    </script>
+</body>
+</html>

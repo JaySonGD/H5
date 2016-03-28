@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+    <img src="images/icon_05.png">
+    <p>这是一个图片</p>
+
+    <button>隐藏</button>
+
+</body>
+
+    <script type="text/javascript">
+        var img = document.getElementsByTagName('img')[0];
+        var p = document.getElementsByTagName('p')[0];
+        var btn = document.getElementsByTagName('button')[0];
+        btn.onclick = function(){
+
+            if (btn.innerText == '隐藏'){
+                btn.innerText = '显示';
+                img.style.display =  'none' // inline
+                p.style.display =  'none' // block
+            }else{
+
+                btn.innerText = '隐藏';
+                img.style.display =   'inline';// inline
+                p.style.display =  'block' // block
+            }
+
+        };
+    </script>
+</html>

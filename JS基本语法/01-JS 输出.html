@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="text/javascript">
+        <!-- 弹框-->
+//        alert('Jason');
+
+        console.log('debug log')
+
+        function onClick(){
+//            alert('nimeide')
+            var img = document.getElementsByTagName('img')[0];
+//            var img = document.getElementById('image');
+//            var img = document.getElementsByClassName('icon')[0]
+//            var img = document.getElementsByName('tupian')
+            img.src = "images/icon_03.png";
+        }
+
+    </script>
+</head>
+<body>
+    <img id="image" class="icon" name="tupian" src="images/icon_01.png">
+    <hr>
+    <button onclick="onClick();">点你妹</button>
+</body>
+</html>

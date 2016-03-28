@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+#flow-body{
+    position: relative;
+
+    -webkit-column-width: 202px;
+    -moz-column-width: 202px;
+    column-width: 202px;
+}
+
+
+#flow-body .box{
+    float: left;
+    /*background-color: red;*/
+    padding: 15px 15px 0 0;
+}
+
+#flow-body .box .pic{
+
+    padding: 10px;
+    border: 1px solid orange;
+    box-shadow: 0 0 1px #dddddd;
+
+    border-radius: 10px;
+
+
+}
+
+#flow-body .box .pic img{
+
+    width: 165px;
+}
